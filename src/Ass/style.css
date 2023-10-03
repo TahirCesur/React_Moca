@@ -1,0 +1,1092 @@
+/************ TOPBAR ************/
+/************ TOPBAR ************/
+
+.topbar {
+  background-color: #a79682 !important;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.topbar ul li {
+  margin-left: 10px;
+}
+
+.topbar ul li:first-child {
+  margin-left: 0;
+}
+
+.topbar ul li a {
+  color: #333;
+}
+
+.topbar ul li a:hover {
+  color: #000;
+}
+
+.topbar ul li svg {
+  vertical-align: middle;
+}
+
+.topbar span {
+  margin-right: 5px;
+}
+
+.mocabutton {
+  background-color: #a79682 !important;
+  color: white !important;
+  border: 1px solid !important;
+}
+
+.mocabutton:focus {
+  box-shadow: none; /* Tıklama sonrası gölge efektini kaldırır */
+}
+
+.dropdown-item1 {
+  background-color: #a79682 !important;
+  color: #000000 !important;
+}
+.dropdown-item {
+  background-color: #a79682 !important;
+  color: #ffffff !important;
+}
+
+p {
+  color: black;
+}
+
+.logo h1 {
+  font-size: 28px;
+  margin: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.logo h1 a,
+.logo h1 a:hover {
+  color: rgb(167, 150, 130);
+  text-decoration: none;
+}
+
+.logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 80px;
+}
+
+@media (max-width: 991px) {
+  .logo img {
+    max-height: 60px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+}
+.topbar {
+  background-color: yellow;
+  padding: 0.5rem;
+}
+
+.topbar ul {
+  list-style-type: none;
+  /*noktalardan kurtulmak için*/
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.topbar ul li {
+  padding-left: 1rem;
+}
+
+.logofamily {
+  font-family: "Sirin Stencil", cursive !important;
+}
+
+.navbar {
+  margin-top: 50px;
+}
+
+.navbar .collapse .navbar-nav {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white !important;
+}
+
+.navbar-nav a {
+  color: #73604c !important;
+  font-size: bold !important;
+}
+
+.navbar-nav a:hover {
+  color: #a19687 !important;
+}
+
+@media (max-width: 477px) {
+  .navbar .collapse .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+.dropdown-menu .dropdown-item {
+  background-color: #73604c !important;
+  color: white !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: #050505 !important;
+}
+
+.resimSlider {
+  height: 510px;
+  background-color: #f2f2f2 !important;
+  margin-top: 140px;
+}
+
+@media (max-width: 992px) {
+  .resimSlider {
+    height: 700px;
+    background-color: #f2f2f2 !important;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 576px) {
+  .resimSlider {
+    height: 500px;
+    background-color: #f2f2f2 !important;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 480px) {
+  .resimSlider {
+    height: 300px;
+    background-color: #f2f2f2 !important;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 360px) {
+  .resimSlider {
+    height: 300px;
+    background-color: #f2f2f2 !important;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 325px) {
+  .resimSlider {
+    height: 300px;
+    background-color: #f2f2f2 !important;
+  }
+}
+@media (max-width: 250px) {
+  .resimSlider {
+    height: 300px;
+    background-color: #f2f2f2 !important;
+  }
+}
+
+body {
+  font-family: "Bree Serif", serif;
+  color: #73604c;
+}
+
+.d-flex .btn {
+  background: #303133;
+}
+
+.card shadow {
+  font-style: normal;
+}
+
+.hakkimizda {
+  background-color: #ffffff;
+}
+
+.ocaklarimiz {
+  background-color: #ffffff;
+}
+
+.urunlerimiz {
+  background-color: #ffffff;
+}
+
+.iletisim {
+  background-color: #ffffff;
+}
+
+.ayrac {
+  border-top: 3px solid #a79682;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.hakkimizda .cizgi {
+  border: none;
+  border-top: 3px solid #a79682;
+  max-width: 100%;
+  margin: auto;
+}
+
+.hakkimizda .card {
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #a79682;
+  color: rgb(0, 0, 0) !important;
+  font-size: bold !important;
+  border-radius: 15px 40px;
+  text-align: center;
+  box-shadow: rgb(167, 150, 130, 0.5) 5px 5px,
+    rgba(167, 150, 130, 0.4) 10px 10px, rgba(167, 150, 130, 0.3) 15px 15px,
+    rgba(167, 150, 130, 0.2) 20px 20px, rgba(167, 150, 130, 0.1) 25px 25px;
+}
+
+section .card {
+  box-shadow: rgb(167, 150, 130, 0.5) 5px 5px,
+    rgba(167, 150, 130, 0.4) 10px 10px, rgba(167, 150, 130, 0.3) 15px 15px,
+    rgba(167, 150, 130, 0.2) 20px 20px, rgba(167, 150, 130, 0.1) 25px 25px;
+}
+
+.custom-shape-divider-bottom-1668849817 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668849817 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 107px;
+}
+
+.custom-shape-divider-bottom-1668849817 .shape-fill {
+  fill: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+@media (max-width: 576px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+@media (max-width: 480px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+@media (max-width: 360px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+@media (max-width: 325px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+@media (max-width: 250px) {
+  .custom-shape-divider-bottom-1668849817 .shape-fill {
+    fill: #ffffff !important;
+  }
+}
+
+.igri {
+  color: #a79682;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.ibeyaz {
+  color: #a79682;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.ekipCard > img:hover {
+  opacity: 0.8;
+}
+
+.galeri {
+  background-color: #f2f2f2;
+}
+
+.card-header {
+  border-bottom: 1px solid #fbfbfb !important;
+  background-color: #a79682 !important;
+}
+/***** FOOTER *****/
+
+.footer-bg {
+  background: #a79682;
+  position: relative;
+  padding-top: 100px;
+}
+
+.footer-content-item {
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  max-width: 164px;
+}
+
+.footer-logo a {
+  display: block;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #header .logo img {
+    max-height: 90px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+}
+.footer-details {
+  margin-top: 25px;
+}
+
+.footer-details p {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.footer-content-list {
+  padding-left: 0px;
+}
+
+.footer-list li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.footer-list h3 {
+  color: #e1e6f2;
+}
+
+.footer-list hr {
+  color: #000000;
+}
+
+.footer-list li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-list li span {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.footer-list li span a {
+  color: rgb(167, 150, 130);
+}
+
+.footer-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  background-color: #000000 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+.footer-lower-item {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer-lower-item a {
+  text-decoration: none;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.footer-copyright-text p {
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.footer-copyright-text p a {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+.footer-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.footer-social-list li {
+  -webkit-box-flex: 0;
+  flex: 0 0 30px;
+  -ms-flex: 0 1 auto;
+  max-width: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 7px;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-social-list li:first-child {
+  margin-left: 0;
+}
+
+.footer-social-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.footer-social-list li:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.form-group .btn {
+  justify-content: center;
+}
+
+footer .footerdesc {
+  color: #666;
+}
+
+footer .social a {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 18px;
+  line-height: 34px;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #000000;
+  text-align: center;
+  transition: 500ms;
+}
+footer .social a:hover {
+  background-color: #a79682 !important;
+  color: white !important;
+}
+
+.iletisim.card-group.card {
+  border-radius: 3px;
+  border: 3px solid black;
+}
+
+/******/
+
+.wrapper {
+  display: flex;
+}
+/* Kredi menüsünün aktif menü olduğunu göstermek amacıyla arka plan rengini değiştirdik. Ayrıca sigorta menüsüne de tıkladığımızda arka plan rengini değiştirdik. */
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+}
+/* Sayfa genişliği 768 px ve daha aşağı değerlerde olduğunda sidebar menüyü ve butonda bulunan yazıyı kaldırdık. */
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+/*********************/
+.figure:hover {
+  opacity: 0.8;
+}
+
+.figure a {
+  text-decoration: none;
+  color: #050505;
+}
+
+.figure-img {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.sidebar-navigation {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.sidebar-navigation li {
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.sidebar-navigation li a {
+  padding: 10px 15px 10px 30px;
+  display: block;
+  color: #fff;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-navigation .header {
+  font-size: 12px;
+  background-color: #151515;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.sidebar-header h5 {
+  font-size: 25px;
+  background-color: #151515;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-container {
+  padding-left: 200px;
+}
+.carousel-inner h6,
+.carousel-inner p {
+  color: #151515;
+  font-weight: bolder;
+}
+.carousel-inner p {
+  font-size: 14px;
+  text-align: center;
+}
+.slider h2 {
+  text-shadow: 4px 3px 2px rgb(255, 255, 255);
+  color: black;
+  font-size: xx-large;
+}
+
+.contact .list-inline-item a {
+  font-size: 16px;
+  color: #a79682 !important;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #6b615a !important;
+}
+
+.footer-details a {
+  color: #666;
+  font-size: 14px;
+  line-height: 25px;
+  transition: all 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.footer-details a:hover {
+  padding-left: 10px;
+  color: #666;
+}
+
+/************ PAGE HEADER ************/
+
+.page-header {
+  padding: 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(../Ass/White-River-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.page-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--color1-transparent-15);
+  z-index: 2;
+}
+
+.page-header .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.page-header .breadcrumb a {
+  text-decoration: none;
+}
+
+.custom-shape-divider-top-1668902699 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1668902699 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+}
+
+.custom-shape-divider-top-1668902699 .shape-fill {
+  fill: #ffffff;
+}
+
+/*--------- DÜĞÜN PAKETLERİ GRİD ---------- */
+
+.container-mygrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(15, auto);
+  gap: 0px;
+  justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 576px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 480px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 360px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 325px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 250px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+.container-mygrid .altnprkpkt {
+  margin-top: 10px;
+}
+.container-mygrid .albmpkt2 {
+  margin-top: 60px;
+}
+.container-mygrid .albmpkt3 {
+  margin-top: 100px;
+}
+.container-mygrid .tekalbmydk {
+  margin-top: 40px;
+}
+.container-mygrid .albmpkt1ydk {
+  margin-top: 40px;
+}
+
+@media (max-width: 1270px) {
+  .container-mygrid .albmpkt1ydk {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container-mygrid {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+  }
+  .container-mygrid .tekalbmydk {
+    margin-top: 0px;
+  }
+  .container-mygrid .altnprkpkt {
+    margin-top: 30px;
+  }
+  .container-mygrid .albmpkt1ydk {
+    margin-top: 50px;
+  }
+  .container-mygrid .albmpkt1 {
+    margin-top: 10px;
+  }
+  .container-mygrid .albmpkt2 {
+    margin-top: 10px;
+  }
+  .container-mygrid .albmpkt3 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+  }
+  .container-mygrid div {
+    margin-top: 10px;
+  }
+  .container-mygrid .albmpkt1ydk {
+    margin-top: 0px;
+  }
+  .container-mygrid .albmpkt3 {
+    margin-top: 10px;
+  }
+  .container-mygrid .altnprkpkt {
+    margin-top: 10px;
+  }
+}
+
+/*--------- DİĞER PAKETLER GRİD ---------- */
+
+.container-mygrid .nsnpktydk {
+  margin-top: 40px;
+}
+.container-mygrid .ekstpktydk {
+  margin-top: 50px;
+}
+
+.container-mygrid .ekstpkt {
+  margin-top: 50px;
+}
+.container-mygrid .sozpkt {
+  margin-top: 100px;
+}
+.container-mygrid .sozpktydk {
+  margin-top: 20px;
+}
+
+@media (max-width: 1270px) {
+  .container-mygrid .nsnpktydk {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container-mygrid .nsnpktydk {
+    margin-top: 20px;
+  }
+  .container-mygrid .dgpkt {
+    margin-top: 30px;
+  }
+  .container-mygrid .dgpktydk {
+    margin-top: 100px;
+  }
+  .container-mygrid .sozpktydk {
+    margin-top: 10px;
+  }
+  .container-mygrid .ekstpktydk {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+  }
+  .container-mygrid div {
+    margin-top: 10px;
+  }
+  .container-mygrid .nsnpktydk {
+    margin-top: 0px;
+  }
+  .container-mygrid .ekstpktydk {
+    margin-top: 0px;
+  }
+
+  .container-mygrid .ekstpkt {
+    margin-top: 0px;
+  }
+  .container-mygrid .sozpkt {
+    margin-top: 0px;
+  }
+  .container-mygrid .sozpktydk {
+    margin-top: 0px;
+  }
+  .container-mygrid .dgpkt {
+    margin-top: 0px;
+  }
+  .container-mygrid .dgpktydk {
+    margin-top: 0px;
+  }
+}
+
+.all-button:hover {
+  background-color: #d2b466 !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+  border: 2px solid rgb(11, 11, 11);
+}
+.all-button2:hover,
+.price-box .price-content .pricelist-content a:hover {
+  background-color: #0f5e46 !important;
+  color: rgb(13, 14, 13) !important;
+  font-size: 16px;
+  border: 2px solid rgb(11, 11, 11);
+}
+
+/* album list item link */
+.album-list-item .ali-link {
+  display: block;
+  text-decoration: none;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #a79682 !important;
+  border-radius: 5px;
+  box-sizing: content-box;
+  border: none;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1;
+  -o-transition: all 1;
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+
+.card img {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1;
+  -o-transition: all 1;
+  -ms-transition: all 1s;
+  transition: all 1s;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(65, 64, 64, 0.5);
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card .h3 {
+  color: rgb(210, 180, 102);
+  font-size: 25px !important;
+}
+@media (max-width: 768px) {
+  .card .h3 {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .card p {
+    font-size: 12px !important;
+  }
+}
+.card-contact {
+  padding: 14px;
+}
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 992px) {
+  .card-text {
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 480px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 360px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 325px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 250px) {
+  .container-mygrid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 998;
+  background: #a79682;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+.back {
+  position: fixed;
+  overflow: hidden;
+  left: 15px;
+  bottom: 15px;
+  z-index: 998;
+  background: #a79682;
+  border: "none";
+  width: 44px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #beb5aa;
+  color: #000000 !important;
+}
+
+.back:hover {
+  background: #beb5aa;
+  color: #000000 !important;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+button:hover {
+  background: #beb5aa;
+  color: #000000 !important;
+}
+
+.back.visible {
+  display: block;
+}
