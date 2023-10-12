@@ -26,6 +26,7 @@ const TopBar = () => {
           <img
             src="/assets/img/TR Bayragi.webp"
             alt="Tr"
+            title="Tr"
             width="20"
             height="17"
           />
@@ -41,6 +42,7 @@ const TopBar = () => {
           <img
             src="/assets/img/EN Bayragi.webp"
             alt="En"
+            title="En"
             width="20"
             height="17"
           />

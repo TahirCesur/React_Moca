@@ -10,7 +10,8 @@ function Slider() {
         <img
           className="d-block w-100 resimSlider"
           src="/assets/img/Elmalı Marble Quarries 1.webp"
-          alt="First slide"
+          alt="Elmalı Marble Quarries-1"
+          title="Elmalı Marble Quarries-1"
         />
 
         <Carousel.Caption className="slider carousel-caption d-none d-md-block">
@@ -26,7 +27,8 @@ function Slider() {
         <img
           className="d-block w-100 resimSlider"
           src="/assets/img/Elmalı Marble Quarries2-4.webp"
-          alt="Second slide"
+          alt="Elmalı Marble Quarries-2"
+          title="Elmalı Marble Quarries-2"
         />
 
         <Carousel.Caption className="slider carousel-caption d-none d-md-block">
@@ -42,7 +44,8 @@ function Slider() {
         <img
           className="d-block w-100 resimSlider"
           src="/assets/img/Burç-Light-Emperadror-Quarries.webp"
-          alt="Third slide"
+          alt="Burç Light Emperadror Quarries"
+          title="Burç Light Emperadror Quarries"
         />
 
         <Carousel.Caption className="slider carousel-caption d-none d-md-block">

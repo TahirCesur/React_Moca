@@ -46,6 +46,7 @@ function Header() {
           <img
             src="assets/img/Moca-Logo.webp"
             alt="Moca-Logo"
+            title="Moca-Logo"
             className="img-fluid"
           />
         </Link>
