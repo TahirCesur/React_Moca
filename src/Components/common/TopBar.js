@@ -22,14 +22,7 @@ const TopBar = () => {
             changeLanguage("tr");
           }}
         >
-          {t("TR")}&nbsp;
-          <img
-            src="/assets/img/TR Bayragi.webp"
-            alt="Tr"
-            title="Tr"
-            width="20"
-            height="17"
-          />
+          {t("TR")}
         </Button>
         &nbsp;&nbsp;
         <Button
@@ -38,14 +31,7 @@ const TopBar = () => {
             changeLanguage("en");
           }}
         >
-          {t("EN")}&nbsp;
-          <img
-            src="/assets/img/EN Bayragi.webp"
-            alt="En"
-            title="En"
-            width="20"
-            height="17"
-          />
+          {t("EN")}
         </Button>
       </Container>
     </div>

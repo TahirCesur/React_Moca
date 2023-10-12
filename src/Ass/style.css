@@ -3,7 +3,7 @@
 
 .topbar {
   background-color: #a79682 !important;
-  padding: 10px 0;
+  padding: 0px ;
   font-size: 14px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .topbar ul li {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .topbar ul li:first-child {
@@ -48,6 +48,7 @@
   background-color: #a79682 !important;
   color: white !important;
   border: 1px solid !important;
+  border-radius: 4px;
 }
 
 .mocabutton:focus {
@@ -146,7 +147,7 @@ p {
 }
 
 .dropdown-menu .dropdown-item {
-  background-color: #73604c !important;
+  background-color: #a79682 !important;
   color: white !important;
 }
 .dropdown-menu .dropdown-item:hover {

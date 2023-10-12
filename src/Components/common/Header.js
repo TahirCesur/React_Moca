@@ -51,9 +51,6 @@ function Header() {
             className="img-fluid"
           />
         </Link>
-        <h1 className="logo me-auto">
-          <Link to="/"></Link>
-        </h1>
 
         <Navbar.Toggle onClick={toggleNav} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
@@ -169,7 +166,7 @@ function Header() {
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="tel:(+90)2242493435" className="text">
+              <a href="tel:(+90)2242493435" className="text" title="Tel">
                 <i className="fa fa-mobile"></i>
               </a>
             </li>
