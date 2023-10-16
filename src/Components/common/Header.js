@@ -67,7 +67,7 @@ function Header() {
                 handleClick();
               }}
             >
-              {t("Anasayfa")}
+              {t("ANASAYFA")}
             </Nav.Link>
 
             <Nav.Link
@@ -78,10 +78,10 @@ function Header() {
                 handleClick();
               }}
             >
-              {t("Hakkımızda")}
+              {t("HAKKIMIZDA")}
             </Nav.Link>
 
-            <NavDropdown title={t("Ocaklarımız")} id="collasible-nav-dropdown">
+            <NavDropdown title={t("OCAKLARIMIZ")} id="collasible-nav-dropdown">
               <NavDropdown.Item
                 as={Link}
                 to="/antalyaelmali1"
@@ -90,7 +90,7 @@ function Header() {
                   handleClick();
                 }}
               >
-                {t("Antalya Elmalı 1")}
+                {t("ANTALYA ELMALI 1")}
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
@@ -100,7 +100,7 @@ function Header() {
                   handleClick();
                 }}
               >
-                {t("Antalya Elmalı 2")}
+                {t("ANTALYA ELMALI 2")}
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
@@ -110,7 +110,7 @@ function Header() {
                   handleClick();
                 }}
               >
-                {t("Bursa Burç Orhaneli")}
+                {t("BURSA BURÇ ORHANELİ")}
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
@@ -120,7 +120,7 @@ function Header() {
                   handleClick();
                 }}
               >
-                {t("Balıkesir White River")}
+                {t("BALIKESİR WHİTE RİVER")}
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link
@@ -132,7 +132,7 @@ function Header() {
               }}
               style={{ display: "block" }}
             >
-              {t("Ürünlerimiz")}
+              {t("ÜRÜNLERİMİZ")}
             </Nav.Link>
             <Nav.Link
               as={Link}
@@ -142,7 +142,7 @@ function Header() {
                 handleClick();
               }}
             >
-              {t("İletişim")}
+              {t("İLETİŞİM")}
             </Nav.Link>
 
             <li className="list-inline-item">
