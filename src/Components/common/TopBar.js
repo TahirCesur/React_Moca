@@ -39,8 +39,3 @@ const TopBar = () => {
 };
 
 export default TopBar;
-
-//* d-none d-md-inline yapma nedenimiz küçük ekranda
-//* kaybolsunlar diye ve block olursa aşağı iner diye inline yaptık
-
-//? d-none d-md-block yapma nedenimiz küçük ekranda kaybolsunlar diye yapmış olduk...

@@ -1,6 +1,8 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import ProductOne from "./ProductOne";
+import data from "../../data/product.json";
+import { Col, Row } from "react-bootstrap";
 import SectionTitle from "../common/SectionTitle";
 import { useTranslation } from "react-i18next";
 
@@ -12,63 +14,24 @@ function Product() {
         <div className="container">
           <SectionTitle title={t("ÜRÜNLERİMİZ")} />
 
-          <div className="row">
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Cosmos-Beige.webp"
-                title="Cosmos Beige"
-              />
-            </div>
+          <Row>
+            {data.map((product) => {
+              const { picture, nav, id } = product;
+              const title = t(product.title);
+              const desc = t(product.desc);
 
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Elmalı Cloudy Beige Slabs-6.webp"
-                title="Cloudy Beige"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Baiyulan.webp"
-                title="Baiyulan"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Crema-Montana.webp"
-                title="Crema Montana"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Elmalı Letoon-15.webp"
-                title="Letoon Beige"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Elmalı Shandian Slaps-1.webp"
-                title="Shandian"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/Light Emperador.webp"
-                title="Light Emperador"
-              />
-            </div>
-
-            <div className="col-md-3">
-              <ProductOne
-                picture="/assets/img/White-River.webp"
-                title="White River"
-              />
-            </div>
-          </div>
+              return (
+                <Col md={3} key={id} className="text-center mb-5">
+                  <ProductOne
+                    picture={picture}
+                    title={title}
+                    desc={desc}
+                    nav={nav}
+                  />
+                </Col>
+              );
+            })}
+          </Row>
         </div>
       </section>
     </SRLWrapper>

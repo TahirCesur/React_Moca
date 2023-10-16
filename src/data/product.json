@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "picture": "/assets/img/Cosmos-Beige.webp",
+    "desc": "Cosmos Beige",
+    "nav": "/elmalicosmosbeige",
+    "title": "Cosmos Beige"
+  },
+  {
+    "id": "2",
+    "picture": "/assets/img/Elmalı Cloudy Beige Slabs-6.webp",
+    "desc": "Cloudy Beige",
+    "nav": "/elmalicloudybeige",
+    "title": "Cloudy Beige"
+  },
+  {
+    "id": "3",
+    "picture": "/assets/img/Baiyulan.webp",
+    "desc": "Baiyulan",
+    "nav": "/elmalibaiyulan",
+    "title": "Baiyulan"
+  },
+  {
+    "id": "4",
+    "picture": "/assets/img/Crema-Montana.webp",
+    "desc": "Crema Montana",
+    "nav": "/cremamontanabeige",
+    "title": "Crema Montana"
+  },
+  {
+    "id": "5",
+    "picture": "/assets/img/Elmalı Letoon-15.webp",
+    "desc": "Letoon Beige",
+    "nav": "/letoonbeige",
+    "title": "Letoon Beige"
+  },
+  {
+    "id": "6",
+    "picture": "/assets/img/Elmalı Shandian Slaps-1.webp",
+    "desc": "Shandian",
+    "nav": "/shandianbeige",
+    "title": "Shandian"
+  },
+  {
+    "id": "7",
+    "picture": "/assets/img/Light Emperador.webp",
+    "desc": "Light Emperador",
+    "nav": "/lightemperador",
+    "title": "Light Emperador"
+  },
+  {
+    "id": "8",
+    "picture": "/assets/img/White-River.webp",
+    "desc": "White River",
+    "nav": "/balikesirwhiteriver",
+    "title": "White River"
+  }
+]

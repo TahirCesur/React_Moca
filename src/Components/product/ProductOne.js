@@ -1,16 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function ProductOne(props) {
+  const { t } = useTranslation();
+  const { picture, title, desc, nav, id } = props;
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <figure className="figure">
-      <a href={props.picture}>
+    <figure key={id} className="figure">
+      <a href={picture}>
         <img
-          src={props.picture}
+          src={picture}
           className="figure-img img-fluid rounded shadow"
-          alt="..."
+          alt={t(desc)}
         />
       </a>
-      {props.title}
+      <Link to={nav} onClick={scrollToTop}>
+        {t(title)}
+      </Link>
     </figure>
   );
 }
